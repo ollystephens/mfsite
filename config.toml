@@ -13,18 +13,20 @@ uglyURLs = true
 googleAnalytics = ""
 
 # Copyright
-copyright = "&copy;2022 Olly Stephens"
+copyright = "&copy;2022 Olly Maris Stephens"
 
 [params]
 
   # Metadata for search engines and social sharing
-  author = "Olly Stephens"
-  description = "Marste Furniture is a fine furniture maker based in Devon, England."
-  shareImage = "images/social.jpg"
-  twitterHandle = "marstefurniture"
+  author = "Olly Maris Stephens"
+  description = "Fine furniture maker based in Taunton, Somerset."
+  shareImage = "images/background.jpg"
 
   # Favicon
-  favicon = "favicon.ico"
+  favicon = "images/favicon-192.png"
+
+  [params.custom.css]
+    enable = false
 
   # Section - Visual
   [params.visual]
@@ -50,16 +52,8 @@ copyright = "&copy;2022 Olly Stephens"
       heading = "Connect"
 
       [[params.links.list1.link]]
-        text = "Blog"
-        url = "#"
-
-      [[params.links.list1.link]]
         text = "Email"
         url = "mailto:enquiries@marste.furniture"
-
-      [[params.links.list1.link]]
-        text = "Newsletter"
-        url = "#"
 
   # Links List #2
   [[params.links]]
@@ -67,33 +61,25 @@ copyright = "&copy;2022 Olly Stephens"
       heading = "Social"
 
       [[params.links.list2.link]]
-        text = "Twitter"
-        url = "#"
-
-      [[params.links.list2.link]]
         text = "Instagram"
-        url = "#"
-
-      [[params.links.list2.link]]
-        text = "Dribbble"
-        url = "#"
+        url = "https://www.instagram.com/marste.furniture/"
 
   # Links List #3
-  [[params.links]]
-    [params.links.list3]
-      heading = "Network"
+  #[[params.links]]
+  #  [params.links.list3]
+  #    heading = "Network"
 
-      [[params.links.list3.link]]
-        text = "Link One"
-        url = "#"
+  #    [[params.links.list3.link]]
+  #      text = "Link One"
+  #      url = "#"
 
-      [[params.links.list3.link]]
-        text = "Link Two"
-        url = "#"
+  #    [[params.links.list3.link]]
+  #      text = "Link Two"
+  #      url = "#"
 
-      [[params.links.list3.link]]
-        text = "Link Three"
-        url = "#"
+  #    [[params.links.list3.link]]
+  #      text = "Link Three"
+  #      url = "#"
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
   # Please keep the original attribution link when using for your own project.
