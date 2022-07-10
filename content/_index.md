@@ -1,6 +1,6 @@
 +++
 title = "Marste Furniture"
-tagline = "Bespoke. Studio Quality. Hand Crafted."
+tagline = "Bespoke. Studio Quality. Bench Made."
 +++
 
 A small independent furniture making concern based in Taunton, Somerset. Designing and making one-off commissions to an exceptional
